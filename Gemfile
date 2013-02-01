@@ -5,6 +5,8 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'rdf', :git => 'git@github.com:ruby-rdf/rdf.git'
+
 gem 'sqlite3'
 
 gem 'tripod'
