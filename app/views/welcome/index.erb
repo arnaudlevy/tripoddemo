@@ -1,1 +1,6 @@
-hello
+<%= @ric.name %>, <%= @ric.age %> <br/>
+<%= @arnaud.name %>, <%= @arnaud.age %> <br/>
+
+<% @people.each do |person| %>
+	<%= person.name %><br/>
+<% end %>
