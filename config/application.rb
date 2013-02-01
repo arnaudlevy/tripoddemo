@@ -62,7 +62,7 @@ module TripodTest
 end
 
 Tripod.configure do |config|
-  config.update_endpoint = 'http://127.0.0.1:3030/tripod/update'
-  config.query_endpoint = 'http://127.0.0.1:3030/tripod/sparql'
+  config.update_endpoint = 'http://127.0.0.1:3030/tripoddemo/update'
+  config.query_endpoint = 'http://127.0.0.1:3030/tripoddemo/sparql'
   config.timeout_seconds = 30
 end
