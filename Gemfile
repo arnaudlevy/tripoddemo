@@ -5,11 +5,9 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'rdf', :git => 'git@github.com:ruby-rdf/rdf.git'
-
 gem 'sqlite3'
 
-gem 'tripod'
+gem 'tripod', :git => 'git@github.com:Swirrl/tripod.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
